@@ -201,8 +201,8 @@
 
 @media (max-width: 700px) {
     .container{
-        margin: 0 5px 0 5px;
-        width: calc(100% - 2*5px);
+        margin: 0 17px 0 17px;
+        width: calc(100% - 2*17px);
     }
     .buy_step {
         display: flex;
@@ -234,5 +234,24 @@
         margin-top: 30px;
         width: 300px;
         height: 300px;
+    }
+}
+
+@media (max-width: 350px) {
+    .paragraph_icon{
+        margin-top: 28px;
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .main_image{
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+    .license{
+        font-size: 10px;
+        margin-top: 12px;
+        text-align: center;
     }
 }
