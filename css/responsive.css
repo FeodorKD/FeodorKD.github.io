@@ -39,6 +39,9 @@
         width: 350px;
         height: 350px;
     }
+    .paragraph_count {
+        font-size: 40px;
+    }
 }
 
 
