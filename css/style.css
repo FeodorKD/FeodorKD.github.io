@@ -1,0 +1,303 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    margin: 0 145px 0 145px;
+    width: calc(100% - 2*145px);
+}
+
+.title {
+    font-family: Reika;
+    color: #fff;
+    font-weight: 500;
+    font-size: 70px;
+}
+
+.burger {
+    visibility: hidden;
+}
+
+.bottom_line{
+    width: 100%;
+    height: 16px;
+    margin-top: 100px;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #3D8130;
+    background-image: url("../images/background_image.png");
+    background-repeat: no-repeat;
+    background-position: left 0 top 200px;
+    background-size: 746px 600px;
+}
+
+/* Верстки шапки */
+
+#head{
+    height: 11vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+/* Верстка логотипа */
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo_image{
+    width: 82px;
+    height: 78px;
+}
+
+.name{
+    font-family: Reika;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+/* Верстка ссылок */
+
+.links{
+    width: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link{
+    color: #fff;
+    font-size: 28;
+    text-decoration: none;
+    font-family: Comfortaa;
+    font-weight: bold;
+}
+
+.link:active{
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+#button_link, #button_link:active{
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+#button_link:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+
+/* Верстка главного блока */
+
+#container_main{
+    margin-top: 112px;
+}
+
+.main_info{
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph{
+    width: 656px;
+    color: #fff;
+    margin-top: 83px;
+    height: 212px;
+}
+
+
+.main_image{
+    width: 480px;
+    height: 480px;
+}
+
+.main_text{
+    font-family: Comfortaa;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+
+.paragraph_icon{
+    margin-top: 40px;
+    margin-right: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+/* Верстка блока about */
+
+#container_about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.about_block_image {
+    display: block;
+    
+}
+
+.about_image {
+    width: 600px;
+    height: 600px;
+}
+
+#about_title {
+    margin-bottom: 10px;
+}
+
+.about_paragraph_block {
+    color: #fff;
+    font-family: Comfortaa;
+    font-size: 24px;
+    max-width: 550px;
+}
+
+.about_paragraph {
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+/* Верстка how to buy блока */
+
+#container_buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#how_to_buy_title {
+    
+    margin: 100px 0 65px 0;
+}
+
+.buy_step {
+    margin-bottom: 40px;
+    display: flex;
+    min-height: 220px;
+    background-color: #1f5414;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.step_image {
+    margin: 40px 50px auto 50px
+}
+
+.step_text {
+    font-family: Comfortaa;
+    color: #fff;
+}
+
+.step_title {
+    margin-top: 50px;
+    font-size: 26px;
+}
+
+.step_paragraph{
+    font-size: 19px;
+    margin: 12px 0 50px 0;
+    line-height: 1.5;
+    
+}
+
+/* Верстка блока tokenomic */
+
+#container_tokenomic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tokenomic_title{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.tokenomic_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.tokenomic_image{
+    width: 400px;
+    height: 400px;
+}
+
+.paragraph_title {
+    font-weight: 500;
+    font-family: Reika;
+    font-size: 46px;
+    margin-top: 15px;
+}
+
+.paragraph_count {
+    font-weight: 500;
+    font-family: Reika;
+    font-size: 56px;
+    margin-top: 15px;
+}
+
+.paragraph_description {
+    font-weight: 500;
+    font-family: Comfortaa;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+/* Верстка футера */
+
+#container_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer_title {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.footer_icon {
+    margin-bottom: 60px;
+}
+
+.footer_description{
+    color: #fff;
+    font-weight: 500;
+    font-family: Comfortaa;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.license{
+    color: #fff;
+    font-weight: 500;
+    font-family: Comfortaa;
+    font-size: 16px;
+    margin-top: calc(180px - 32px);
+    margin-bottom: 20px;
+}
