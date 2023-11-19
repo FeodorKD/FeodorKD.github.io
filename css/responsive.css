@@ -204,6 +204,13 @@
         margin: 0 17px 0 17px;
         width: calc(100% - 2*17px);
     }
+
+    .paragraph_icon {
+        margin-top: 20px;
+        width: 44px;
+        height: 44px;
+    }
+
     .buy_step {
         display: flex;
         flex-direction: column;
@@ -232,8 +239,17 @@
     }
     .main_image{
         margin-top: 30px;
-        width: 300px;
-        height: 300px;
+        width: 312px;
+        height: 312px;
+    }
+
+    
+}
+
+@media (max-width: 385px){
+    .logo{
+        min-width: 250px;
+        font-size: 20px;
     }
 }
 
@@ -249,6 +265,16 @@
         width: 300px;
         height: 300px;
     }
+
+    .tokenomic_image{
+        width: 280px;
+        height: 280px;
+    }
+
+    .paragraph_count{
+        font-size: 28px;
+    }
+
     .license{
         font-size: 10px;
         margin-top: 12px;
