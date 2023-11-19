@@ -109,12 +109,13 @@ body{
 .main_info{
     display: flex;
     flex-direction: row;
+    
 }
 
 .paragraph{
     width: 656px;
     color: #fff;
-    margin-top: 83px;
+    margin-top: 47px;
     height: 212px;
 }
 
