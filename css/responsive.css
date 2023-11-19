@@ -16,8 +16,6 @@
         margin-top: 50px;
     }
 
-    
-
     .paragraph_icon{
         margin-top: 32px;
         margin-right: 10px;
@@ -35,6 +33,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .tokenomic_image{
+        width: 350px;
+        height: 350px;
     }
 }
 
