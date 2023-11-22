@@ -215,7 +215,7 @@
 
 @media (max-width: 700px) {
     .logo {
-        min-width: 300px;
+        min-width: 250px;
     }
     .container{
         margin: 0 17px 0 17px;
