@@ -37,6 +37,7 @@ body{
 
 #head{
     height: 9vw;
+    min-height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +88,7 @@ body{
 }
 
 .link:hover{
-    text-decoration: underline;
+    color: #cdcdcd;
 }
 
 #button_link, #button_link:active{
@@ -98,7 +99,7 @@ body{
 
 #button_link:hover {
     text-decoration: none;
-    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 
@@ -155,7 +156,6 @@ body{
 
 .about_block_image {
     display: block;
-    
 }
 
 .about_image {
@@ -188,7 +188,6 @@ body{
 }
 
 #how_to_buy_title {
-    
     margin: 100px 0 65px 0;
 }
 
