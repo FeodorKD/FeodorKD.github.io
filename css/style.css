@@ -32,10 +32,7 @@ header, section, footer{
 body{
     overflow-x: hidden;
     background-color: #4C9541;
-    background-image: url("../images/background_image.png");
-    background-repeat: no-repeat;
-    background-position: left 0 top 120px;
-    background-size: 700px 700px;
+    
 }
 
 /* Верстки шапки */
@@ -74,13 +71,14 @@ body{
 
 .links{
     width: 50vw;
+    max-width: 700px;
     margin-right: 0;
-    
 }
 
 
 
 .links_wrapper{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,7 +116,11 @@ body{
 /* Верстка главного блока */
 
 #container_main{
-    margin-top: 112px;
+    padding-top: 112px;
+    background-image: url("../images/background_image.png");
+    background-repeat: no-repeat;
+    background-position: right 510px top 0;
+    background-size: 700px 700px;
 }
 
 .main_info{
