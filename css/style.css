@@ -5,6 +5,7 @@ html {
 .container{
     margin: 0 145px 0 145px;
     width: calc(100% - 2*145px);
+    max-width: 1440px;
 }
 
 .title {
@@ -29,8 +30,8 @@ body{
     background-color: #4C9541;
     background-image: url("../images/background_image.png");
     background-repeat: no-repeat;
-    background-position: left 0 top 200px;
-    background-size: 746px 600px;
+    background-position: left 0 top 120px;
+    background-size: 700px 700px;
 }
 
 /* Верстки шапки */

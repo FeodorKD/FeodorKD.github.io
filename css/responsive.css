@@ -144,6 +144,7 @@
     .paragraph{
         margin-bottom: 10px;
         width: 90%;
+        height: auto;
     }
 
     .main_info{
@@ -208,7 +209,7 @@
 
     .license{
         font-size: 12px;
-        margin-top: 12px;
+        margin-top: 70px;
         text-align: center;
     }
 }
@@ -220,6 +221,10 @@
     .container{
         margin: 0 17px 0 17px;
         width: calc(100% - 2*17px);
+    }
+
+    .main_image_container {
+        margin-top: 30px;
     }
 
     .paragraph_icon {
