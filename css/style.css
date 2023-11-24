@@ -75,12 +75,16 @@ body{
 .links{
     width: 50vw;
     margin-right: 0;
+    
 }
+
+
 
 .links_wrapper{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 0;
 }
 
 .link{
