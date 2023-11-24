@@ -16,12 +16,35 @@
         background-image: none;
     }
 
+    .logo_image {
+        width: 50px;
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
     .link {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .main_info {
         margin-top: 50px;
+        
+    }
+
+    .paragraph{
+        min-height: auto;
+        margin-top: 0;
+    }
+
+    .main_text{
+        font-size: 20px;
+    }
+
+    .main_image{
+        width: 400px;
+        height: 400px;
     }
 
     .paragraph_icon{
