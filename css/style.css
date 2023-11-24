@@ -1,7 +1,12 @@
 html {
     scroll-behavior: smooth;
 }
-
+header, section, footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     margin: 0 145px 0 145px;
     width: calc(100% - 2*145px);
@@ -20,8 +25,7 @@ html {
 }
 
 .bottom_line{
-    width: 100%;
-    height: 16px;
+    width: 100vw;
     margin-top: 100px;
 }
 
@@ -51,6 +55,7 @@ body{
     margin-left: 10px;
     display: flex;
     align-items: center;
+    width: 40%;
 }
 
 .logo_image{
@@ -69,6 +74,7 @@ body{
 
 .links{
     width: 50vw;
+    margin-right: 0;
 }
 
 .links_wrapper{
@@ -114,7 +120,7 @@ body{
 .main_info{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .paragraph{
@@ -309,5 +315,5 @@ body{
     font-family: Comfortaa;
     font-size: 16px;
     margin-top: calc(180px - 32px);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
