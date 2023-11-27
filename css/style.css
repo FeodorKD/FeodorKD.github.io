@@ -11,6 +11,7 @@ header, section, footer{
     margin: 0 145px 0 145px;
     width: calc(100% - 2*145px);
     max-width: 1440px;
+
 }
 
 .title {
@@ -41,7 +42,7 @@ body{
     height: 9vw;
     min-height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     color: #fff;
 }
@@ -115,12 +116,16 @@ body{
 
 /* Верстка главного блока */
 
-#container_main{
-    padding-top: 112px;
+.main{
     background-image: url("../images/background_image.png");
     background-repeat: no-repeat;
-    background-position: right 510px top 0;
-    background-size: 700px 700px;
+    background-position: top 0;
+    background-size: 650px 650px;
+}
+
+#container_main{
+    padding-top: 112px;
+
 }
 
 .main_info{
