@@ -8,8 +8,12 @@
     html, body {
         /* Убирает прокрутку по горизонтале, для мобильной версии */
         overflow-x: hidden;
+    }
+
+    .main {
         background-image: none;
     }
+
     .container{
         margin: 0 100px 0 100px;
         width: calc(100% - 2*100px);
@@ -246,7 +250,7 @@
 
 @media (max-width: 700px) {
     .logo {
-        min-width: 250px;
+        min-width: 180px;
     }
     .container{
         margin: 0 17px 0 17px;
@@ -286,7 +290,11 @@
 }
 
 
+
 @media (max-width: 400px) {
+    .logo{
+        min-width: 165px;
+    }
     .paragraph_icon{
         margin-top: 28px;
         margin-right: 10px;
@@ -304,7 +312,8 @@
 
 @media (max-width: 385px){
     .logo{
-        min-width: 250px;
+        margin-left: 20px;
+        min-width: 160px;
         font-size: 20px;
     }
 }
